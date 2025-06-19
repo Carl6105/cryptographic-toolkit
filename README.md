@@ -79,7 +79,9 @@ This project is licensed under the MIT License
 
 ### 📬 Contact
 For support, feedback, or questions:
+
 GitHub: @Carl6105
+
 Email: shaikaadil60@gmail.com
 
 ❤️ Support
