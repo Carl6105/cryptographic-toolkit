@@ -1,101 +1,101 @@
-# Cryptographic Toolkit
-
-A powerful, modular desktop application built with **PyQt6** that enables cryptographic operations including hashing, encryption/decryption, signing, verification, JWT manipulation, and more. Designed for security professionals, developers, and enthusiasts who want an all-in-one toolkit with a clean GUI.
-
----
-
-## Features
-
-- **File Signing & Verification** (RSA/ECC)
-- **X.509 Certificate Parsing**
-- **File Hash Comparison** (SHA-256, MD5, SHA-1, etc.)
-- **JWT Decoder & Payload Tampering Tool**
-- **Password Strength Evaluation**
-- **Base64 and Hex Encoding/Decoding**
-- **RSA Key Components Visualization**
-- **Avalanche Effect Simulator for Hashes**
-- **Diffie-Hellman Key Exchange Simulation**
-- **File Encryption & Decryption (AES-256-CBC)**
-- **QR Code Generator (Base64 PNG output)**
-- **Encrypted Notes Vault**
-- **Secure File Shredder**
+<p align="center">
+  <img src="assets/logo.png" width="120" alt="Cryptographic Toolkit Logo">
+  <h1 align="center">🔐 Cryptographic Toolkit</h1>
+  <p align="center">
+    A modular PyQt6 desktop app for crypto operations, designed for devs & security enthusiasts.
+  </p>
+  <p align="center">
+    <img alt="Python" src="https://img.shields.io/badge/Python-3.8%2B-blue?logo=python">
+    <img alt="License" src="https://img.shields.io/badge/license-MIT-green">
+    <img alt="GUI" src="https://img.shields.io/badge/GUI-PyQt6-orange">
+    <img alt="Platform" src="https://img.shields.io/badge/Platform-Windows%20%7C%20Linux%20%7C%20macOS-purple">
+  </p>
+</p>
 
 ---
 
-## Getting Started
+## ✨ Features
 
-### Prerequisites
+| Category                     | Description                                                                 |
+|-----------------------------|-----------------------------------------------------------------------------|
+| 🖋️ File Signing & Verification  | RSA & ECC-based digital signature creation & validation                     |
+| 📜 Certificate Parser        | X.509 certificate viewer and metadata extraction                            |
+| 🔍 Hash Comparison           | Compare SHA-256, MD5, SHA-1 digests for file integrity                      |
+| 🧩 JWT Analyzer              | Decode, edit, and test JWT tokens with live payload manipulation            |
+| 🔐 Password Strength         | Check entropy and strength using custom scoring                             |
+| 🧬 Encoding Tools            | Base64 & Hex encode/decode for any input                                    |
+| 🧠 RSA Visualizer            | Visual explanation of RSA key structure                                     |
+| ⚡ Avalanche Simulator       | Demonstrates avalanche effect in hashing algorithms                         |
+| 🔄 Key Exchange Simulation   | Step-by-step Diffie-Hellman interactive simulation                          |
+| 🗂️ File Encryption/Decryption| AES-256-CBC mode using password-derived key with salt                       |
+| 📷 QR Code Generator         | Create PNG QR codes from input strings or base64                            |
+| 📝 Encrypted Notes Vault     | Secure note saving using symmetric crypto                                   |
+| 🗑️ File Shredder             | Overwrites and deletes sensitive files (basic secure delete)                |
 
-- Python 3.8+
-- Recommended to use a virtual environment
+---
 
-### Installation
+## 🚀 Getting Started
 
-1. Clone the repo:
+### ✅ Prerequisites
 
-   ```bash
-   git clone https://github.com/Carl6105/cryptographic-toolkit.git
-   cd cryptographic-toolkit
+- Python **3.8+**
+- Recommended: Create a virtual environment
 
-2. Install dependencies:
+### 🔧 Installation
+
+```bash
+# Clone the repo
+git clone https://github.com/Carl6105/cryptographic-toolkit.git
+
+# Install dependencies
+pip install -r requirements.txt
+If you don't have a requirements.txt, use:
 pip install PyQt6 cryptography pycryptodome qrcode[pil]
 
-3. Running the Application
+🖥️ Running the Application
 python main.py
+The main window will launch with a stylish neon-themed UI.
 
-The app window will open, providing a sidebar navigation to all toolkit modules.
+Use the sidebar navigation to explore each crypto module.
 
-# Folder Structure
-cryptographic-toolkit/
-├── main.py                  # Main application launcher
-├── modules/                 # Backend crypto modules (logic)
-│   ├── file_signer.py
-│   ├── cert_parser.py
-│   ├── hash_compare.py
-│   ├── jwt_tamper.py
-│   ├── password_strength.py
-│   ├── encoding_tools.py
-│   ├── rsa_visualizer.py
-│   ├── avalanche_sim.py
-│   ├── key_exchange_chat.py
-│   ├── file_crypto.py
-│   ├── qr_generator.py
-│   ├── vault.py
-│   └── shredder.py
-├── widgets/                 # PyQt6 widgets for each feature
-│   ├── file_signer_widget.py
-│   ├── cert_parser_widget.py
-│   ├── hash_compare_widget.py
-│   ├── jwt_tamper_widget.py
-│   ├── password_strength_widget.py
-│   ├── encoding_tools_widget.py
-│   ├── rsa_visualizer_widget.py
-│   ├── avalanche_sim_widget.py
-│   ├── key_exchange_widget.py
-│   ├── file_crypto_widget.py
-│   ├── qr_generator_widget.py
-│   ├── vault_widget.py
-│   └── shredder_widget.py
-├── requirements.txt         # Project dependencies
-└── README.md
+Comes with custom icons 🎉
 
-# Usage Notes
-Security: This toolkit is intended for educational and development use. Do not use for production cryptographic operations without proper security review.
+📸 Screenshots
+Place your screenshots in assets/screenshots/ and embed them here.
 
-File Encryption: Uses AES-256 with PBKDF2 key derivation. Ensure strong passwords.
+Main UI	Avalanche Simulator	File Signer
 
-File Shredder: Implements basic file overwrite; does not guarantee recovery prevention on SSDs or journaling filesystems.
+🔐 Usage Notes
+This app is educational & experimental — not intended for production crypto.
 
-JWT Tampering: Generates unsigned tokens for testing only.
+Encryption uses AES-256 with PBKDF2-derived key.
 
-Contribution
-Contributions, issues, and feature requests are welcome!
-Feel free to fork and submit pull requests.
+Shredder performs basic overwrite (not effective on SSDs or journaling FS).
 
-License
-MIT License © 2025 Carl
+JWT Module creates unsigned tokens for dev testing only.
 
-Contact
-For questions or support, reach out to Carl via GitHub or email.
+🤝 Contribution
+Contributions are welcome!
 
-Happy cryptographing! 🔐🚀
+Fork the repo
+
+Create a new branch: git checkout -b my-feature
+
+Commit your changes
+
+Push and open a pull request 🚀
+
+📄 License
+This project is licensed under the MIT License
+© 2025 Carl6105
+
+📬 Contact
+For support, feedback, or questions:
+
+GitHub: @Carl6105
+
+Email: shaikaadil60@gmail.com
+
+❤️ Support
+If this project helped you, feel free to ⭐ star the repo and share it!
+Happy Cryptographing! 🔐🚀
