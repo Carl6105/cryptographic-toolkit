@@ -8,12 +8,12 @@
     <img alt="Python" src="https://img.shields.io/badge/Python-3.8%2B-blue?logo=python">
     <img alt="License" src="https://img.shields.io/badge/license-MIT-green">
     <img alt="GUI" src="https://img.shields.io/badge/GUI-PyQt6-orange">
-    <img alt="Platform" src="https://img.shields.io/badge/Platform-Windows">
+    <img alt="Platform" src="https://img.shields.io/badge/Platform-Windows%">
   </p>
 </p>
 
 ---
-
+<p align="center">
 ## ✨ Features
 
 | Category                     | Description                                                                 |
@@ -31,7 +31,7 @@
 | 📷 QR Code Generator         | Create PNG QR codes from input strings or base64                            |
 | 📝 Encrypted Notes Vault     | Secure note saving using symmetric crypto                                   |
 | 🗑️ File Shredder             | Overwrites and deletes sensitive files (basic secure delete)                |
-
+</p>
 ---
 
 ## 🚀 Getting Started
@@ -59,29 +59,20 @@ pip install PyQt6 cryptography pycryptodome qrcode[pil]
 python main.py
 ```
 The main window will launch with a stylish neon-themed UI.
-
 Use the sidebar navigation to explore each crypto module.
-
 Comes with custom icons 🎉
 
 ### 🔐 Usage Notes
 This app is educational & experimental — not intended for production crypto.
-
 Encryption uses AES-256 with PBKDF2-derived key.
-
 Shredder performs basic overwrite (not effective on SSDs or journaling FS).
-
 JWT Module creates unsigned tokens for dev testing only.
 
 ### 🤝 Contribution
 Contributions are welcome!
-
 Fork the repo
-
 Create a new branch: git checkout -b my-feature
-
 Commit your changes
-
 Push and open a pull request 🚀
 
 ### 📄 License
@@ -90,9 +81,7 @@ This project is licensed under the MIT License
 
 ### 📬 Contact
 For support, feedback, or questions:
-
 GitHub: @Carl6105
-
 Email: shaikaadil60@gmail.com
 
 ❤️ Support
