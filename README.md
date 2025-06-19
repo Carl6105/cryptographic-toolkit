@@ -13,7 +13,7 @@
 </p>
 
 ---
-## ✨ Features
+### ✨ Features
 
 | Category                     | Description                                                                 |
 |-----------------------------|-----------------------------------------------------------------------------|
@@ -62,19 +62,27 @@ Comes with custom icons 🎉
 
 ### 🔐 Usage Notes
 This app is educational & experimental — not intended for production crypto.
+
 Encryption uses AES-256 with PBKDF2-derived key.
+
 Shredder performs basic overwrite (not effective on SSDs or journaling FS).
+
 JWT Module creates unsigned tokens for dev testing only.
 
 ### 🤝 Contribution
 Contributions are welcome!
+
 Fork the repo
+
 Create a new branch: git checkout -b my-feature
+
 Commit your changes
+
 Push and open a pull request 🚀
 
 ### 📄 License
 This project is licensed under the MIT License
+
 © 2025 Carl6105
 
 ### 📬 Contact
@@ -85,5 +93,7 @@ GitHub: @Carl6105
 Email: shaikaadil60@gmail.com
 
 ❤️ Support
+
 If this project helped you, feel free to ⭐ star the repo and share it!
+
 Happy Cryptographing! 🔐🚀
