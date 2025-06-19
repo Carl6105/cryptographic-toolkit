@@ -75,7 +75,8 @@ Contributions are welcome!
 Fork the repo
 
 ```bash
-Create a new branch: git checkout -b my-feature
+# Create a new branch:
+git checkout -b my-feature
 ```
 
 Commit your changes
