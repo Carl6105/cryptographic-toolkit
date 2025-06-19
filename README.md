@@ -51,19 +51,15 @@ git clone https://github.com/Carl6105/cryptographic-toolkit.git
 pip install -r requirements.txt
 If you don't have a requirements.txt, use:
 pip install PyQt6 cryptography pycryptodome qrcode[pil]
+```
 
-🖥️ Running the Application
+### 🖥️ Running the Application
 python main.py
 The main window will launch with a stylish neon-themed UI.
 
 Use the sidebar navigation to explore each crypto module.
 
 Comes with custom icons 🎉
-
-📸 Screenshots
-Place your screenshots in assets/screenshots/ and embed them here.
-
-Main UI	Avalanche Simulator	File Signer
 
 🔐 Usage Notes
 This app is educational & experimental — not intended for production crypto.
