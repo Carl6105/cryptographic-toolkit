@@ -8,7 +8,7 @@
     <img alt="Python" src="https://img.shields.io/badge/Python-3.8%2B-blue?logo=python">
     <img alt="License" src="https://img.shields.io/badge/license-MIT-green">
     <img alt="GUI" src="https://img.shields.io/badge/GUI-PyQt6-orange">
-    <img alt="Platform" src="https://img.shields.io/badge/Platform-Windows%20%7C%20Linux%20%7C%20macOS-purple">
+    <img alt="Platform" src="https://img.shields.io/badge/Platform-Windows">
   </p>
 </p>
 
@@ -54,14 +54,17 @@ pip install PyQt6 cryptography pycryptodome qrcode[pil]
 ```
 
 ### 🖥️ Running the Application
+
+```bash
 python main.py
+```
 The main window will launch with a stylish neon-themed UI.
 
 Use the sidebar navigation to explore each crypto module.
 
 Comes with custom icons 🎉
 
-🔐 Usage Notes
+### 🔐 Usage Notes
 This app is educational & experimental — not intended for production crypto.
 
 Encryption uses AES-256 with PBKDF2-derived key.
@@ -70,7 +73,7 @@ Shredder performs basic overwrite (not effective on SSDs or journaling FS).
 
 JWT Module creates unsigned tokens for dev testing only.
 
-🤝 Contribution
+### 🤝 Contribution
 Contributions are welcome!
 
 Fork the repo
@@ -81,11 +84,11 @@ Commit your changes
 
 Push and open a pull request 🚀
 
-📄 License
+### 📄 License
 This project is licensed under the MIT License
 © 2025 Carl6105
 
-📬 Contact
+### 📬 Contact
 For support, feedback, or questions:
 
 GitHub: @Carl6105
