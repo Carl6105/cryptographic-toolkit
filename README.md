@@ -5,7 +5,7 @@
     A modular PyQt6 desktop app for crypto operations, designed for devs & security enthusiasts.
   </p>
   <p align="center">
-    <img alt="Python" src="https://img.shields.io/badge/Python-3.8%2B-blue?logo=python">
+    <img alt="Python" src="https://img.shields.io/badge/Python-3.10%2B-blue?logo=python">
     <img alt="License" src="https://img.shields.io/badge/license-MIT-green">
     <img alt="GUI" src="https://img.shields.io/badge/GUI-PyQt6-orange">
     <img alt="Platform" src="https://img.shields.io/badge/Platform-Windows-blue">
